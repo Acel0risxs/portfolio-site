@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('https://use.typekit.net/deo1vuc.css') format('truetype');
+}
+
+body {
+    background-color: #ffe875;
+}
+
+section {
+    background-color: #FFF5FE;
+    padding: 20px;
+    border: 3px solid #353E3D;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #3CAB35;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #353E3D;
+    border-radius: 40px;
+}
+
+.logo img {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "quicksand", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F2D22E;
+    outline: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    color: #FFF5FE;
+    background-color: #CB1426;
+    outline: 1px solid #CB1426;
+    border-radius: 40px;
+}
+
+h1 {
+    display: inline-block;
+    font-family: "quicksand", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 5px 10px;
+    background-color: #CB1426;
+    border-radius: 40px;
+}
+
+h2, h3 {
+    font-family: "quicksand", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+hr {
+    text-decoration-line: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    vertical-align: top;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto {
+    padding-left: 20px;
+    font-family: "quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    color: #CB1426;
+    text-decoration: none;
+    outline: none;
+    font-family: quicksand, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #353E3D;
+}
+
+.container {
+    display: flex;
+}
+
+.section1, .section2, .section3 {
+    flex: 1;
+    padding: 20px;
+}
+
+.section1, .section2 {
+    margin-right: 20px;
+}
